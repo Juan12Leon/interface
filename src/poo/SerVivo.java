@@ -10,5 +10,19 @@ package poo;
  * @author alumno
  */
 public class SerVivo {
+    private int tiempoDevida;
+
+    public SerVivo(int tiempoDevida) {
+        this.tiempoDevida = tiempoDevida;
+    }
+
+    public int getTiempoDevida() {
+        return tiempoDevida;
+    }
+
+    public void setTiempoDevida(int tiempoDevida) {
+        this.tiempoDevida = tiempoDevida;
+    }
+    
     
 }

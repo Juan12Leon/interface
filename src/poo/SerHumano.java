@@ -9,6 +9,30 @@ package poo;
  *
  * @author alumno
  */
-public class SerHumano {
+public class SerHumano extends SerVivo{
+
+   private String idioma;
+   private String caracteristicas;
+
+    public SerHumano(String idioma, String caracteristicas, int tiempoDevida) {
+        super(tiempoDevida);
+        this.idioma = idioma;
+        this.caracteristicas = caracteristicas;
+    }
+
+   
+    public String getIdioma() {
+        return idioma;
+    }
+
+    public void setIdioma(String idioma) {
+        this.idioma = idioma;
+    }
+    
+    
+    public void caracteristicaHumano(int caracteristica)
+    {
+            }
+
     
 }

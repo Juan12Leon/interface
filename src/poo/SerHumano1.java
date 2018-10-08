@@ -9,6 +9,10 @@ package poo;
  *
  * @author alumno
  */
-public class SerHumano1 {
+public interface SerHumano1 {
     
+    public void caracteristicamaHumano (int caracteristicas);
+   
 }
+
+    

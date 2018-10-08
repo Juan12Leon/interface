@@ -9,6 +9,23 @@ package poo;
  *
  * @author alumno
  */
-public class Animal {
+public class Animal extends SerVivo {
+    
+    private int especie;
+
+    public Animal(int especie, int tiempoDevida) {
+        super(tiempoDevida);
+        this.especie = especie;
+    }
+
+    public int getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(int especie) {
+        this.especie = especie;
+    }
+    
+    
     
 }
